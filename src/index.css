@@ -1,0 +1,29 @@
+:root {
+  --overflowBG: #F2F2F2;
+  --navColor : #535353;
+  --primaryBG: #333333;
+  --hoverColorAndLogo: #F15454;
+  --hoverTextColor: #FFFFFF;
+  --yearColor: #AAAAAA;
+  --ownedByColor: #999999;
+  --bookAndUserNameColor: #CCCCCC;
+  --categoryAndIconBG: #777777;
+
+  font-family: 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--overflowBG);
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul, li, p{
+  margin: 0;
+  padding: 0;
+}
